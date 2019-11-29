@@ -21,10 +21,10 @@ Route::group(['middleware' => 'auth'], function(){
 	Route::get('home', 'PortalController@home')->name('home');
 
 	// RUTAS PARA LA ENTRA DE VALIJA
-	Route::get('entrada_registros','PortalController@entrada_index')->name('index');
+	Route::get('entrada_index','PortalController@entrada_index')->name('entrada_index');
 
 	// RUTAS PARA LA SALIDA DE VALIJA
-	Route::get('salida_registros','PortalController@salida_index')->name('index');
+	Route::get('salida_index','PortalController@salida_index')->name('salida_index');
 	Route::get('nuevo_registro','PortalController@salida_create')->name('create');
 	Route::post('store','PortalController@salida_store')->name('store');
 	Route::get('ver_registro/{id}','PortalController@salida_show')->name('ver.show');
@@ -33,6 +33,6 @@ Route::group(['middleware' => 'auth'], function(){
 	Route::delete('destroy/{id}','PortalController@salida_destroy')->name('destroy');
 
 	// RUTAS PARA LAS DESCRIPCIONES DE LAS VALIJAS
-	Route::get('salida_registros','PortalController@salida_index')->name('index');
+	Route::get('descripcion_index','PortalController@descripcion_index')->name('descripcion_index');
 });
 

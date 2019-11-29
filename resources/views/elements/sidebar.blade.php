@@ -12,37 +12,37 @@
 	    	</hr>
 	    <!-- Nav Item - Pages Collapse Menu -->
 		    <li class="nav-item">
-		        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+		        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseTwo">
 		    		<i class="fas fa-suitcase"></i>
 		        	<span>Entrada Valija</span>
 		        </a>
-		        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+		        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSidebar">
 		        	<div class="bg-white py-2 collapse-inner rounded">
-		            	<a class="collapse-item" href="{{ route('index') }}">Inicio</a>
+		            	<a class="collapse-item" href="{{ route('entrada_index') }}">Inicio</a>
 		        	</div>
 		        </div>
 		    </li>
       	<!-- Nav Item - Utilities Collapse Menu -->
       		<li class="nav-item">
-        		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+        		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
 		        	<i class="fas fa-luggage-cart"></i>
 		        	<span>Salida Valija</span>
         		</a>
-		        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+		        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 			        <div class="bg-white py-2 collapse-inner rounded">
-			            <a class="collapse-item" href="{{ route('index') }}">Inicio</a>
+			            <a class="collapse-item" href="{{ route('salida_index') }}">Inicio</a>
 			        </div>
 		        </div>
     		</li>
     	<!-- Nav Item - Utilities Collapse Menu -->
       		<li class="nav-item">
-        		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-		        	<i class="fas fa-luggage-cart"></i>
+        		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+		        	<i class="fas fa-text-width"></i>
 		        	<span>Descripciones</span>
         		</a>
-		        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+		        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">
 			        <div class="bg-white py-2 collapse-inner rounded">
-			            <a class="collapse-item" href="{{ route('index') }}">Inicio</a>
+			            <a class="collapse-item" href="{{ route('descripcion_index') }}">Inicio</a>
 			        </div>
 		        </div>
     		</li>

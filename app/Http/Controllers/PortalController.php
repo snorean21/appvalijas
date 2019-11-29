@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Entrada;
 use App\Salida;
-use App\Descripcion;
+use App\Description;
 use Illuminate\Http\Request;
 
 class PortalController extends Controller
@@ -108,7 +108,7 @@ class PortalController extends Controller
         public function descripcion_index()
         {
             /* CONSULTAMOS LA BASE DE DATOS Y MOSTRAMOS LOS DATOS EN LA PAGINA INDEX */
-            $descripciones = Descripcion::all();
-            return view('portal.salida_valija.index', compact('descripciones'));
+            $descripciones = Description::all();
+            return view('portal.descripciones_valija.index', compact('descripciones'));
         }
 }
