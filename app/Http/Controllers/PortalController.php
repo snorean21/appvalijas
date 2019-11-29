@@ -108,7 +108,7 @@ class PortalController extends Controller
         public function descripcion_index()
         {
             /* CONSULTAMOS LA BASE DE DATOS Y MOSTRAMOS LOS DATOS EN LA PAGINA INDEX */
-            $descripciones = Salida::all();
+            $descripciones = Descripcion::all();
             return view('portal.salida_valija.index', compact('descripciones'));
         }
 }
